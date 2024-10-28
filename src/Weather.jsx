@@ -87,7 +87,7 @@ function Weather() {
           <div>
 
 {/* Navbar */}
-         <MDBNavbar className='navb fixed-top' light bgColor=''>
+         <MDBNavbar style={{marginBottom:'20px'}} className='navb fixed-top'light bgColor=''>
         <MDBContainer>
           <MDBNavbarBrand href='/'>
           {/* <i class="fa-solid fa-sun fs-1 me-2  mt- text-warning"></i> */}
@@ -100,7 +100,7 @@ function Weather() {
     </div>
 
 {/* Weather Body */}
-       <div>
+       <div className='bod'>
        <div className="row">
               <div className="col"></div>
               <div className="col">

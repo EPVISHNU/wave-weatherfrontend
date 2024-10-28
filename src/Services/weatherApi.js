@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const BASE_URL = 'http://localhost:5000/api/weather';
+const BASE_URL = 'https://wave-weatherbackend.onrender.com';
 
 export const fetchCurrentWeather = async () => {
   try {
